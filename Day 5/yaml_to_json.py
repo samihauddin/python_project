@@ -16,10 +16,10 @@ if len(sys.argv) > 1:
         exit(1)
 # No file, no usage
 else:
-    print("Usage: yaml2json.py <source_file.json> [target_file.yaml]")
+    print("Usage: yaml_two_json.py <source_file.json> [target_file.yaml]")
 
 # Processing the conversion
-output = json.dump(source_content)
+output = json.dumps(source_content)
 
 # If no target file send to stdout
 if len(sys.argv) < 3:
