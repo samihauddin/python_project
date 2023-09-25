@@ -47,7 +47,7 @@ To be considered RESTful, an API must adhere to certain principles and constrain
 - **Uniform Interface**
 - **Layered System**: Allows intermediaries like proxies and load balancers for scalability and security.
 - **Stateless Communication**: All needed info is in each request; servers don't store client data.
-- **Cacheability**: esponses can be marked as cacheable, improving performance through caching.
+- **Cacheability**: responses can be marked as cacheable, improving performance through caching.
 
 ### What is HTTP? 
 
@@ -63,11 +63,15 @@ It's like regular HTTP but with an added layer of security. It encrypts the data
 
 ### Explain HTTP request structure using the diagram provided.
 
-![alt text](image1.png)
+![alt text](image2.png)
+
+diagram 1: There is a request made to the API. The verb refers to what action you would want, URL, is the location of where the data you want to receive. version refers to the version of HTTP. The header refers to the information you want to receive. Body refers to the format you want to send data. 
 
 ### Explain HTTP response structure using the diagram provided.
 
-![alt text](image2.png)
+diagram 2: Response from API, header provides information about what the content contains, the body is the actual data. 
+
+![alt text](image1.png)
 
 ### What are the 5 HTTP verbs and what do they do? 
 
